@@ -4,6 +4,15 @@ title: Team
 description: This is our team
 ---
 
+
+
+{% include team.html %}
+
+
+
+
+
+
 |     2   |    3     |  3  |   
 | ------------- |:-------------:| -----:|
 |![Niklas](../img/profile/NiklasWulkow.png)  | right-aligned | $1600 |
