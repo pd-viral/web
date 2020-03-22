@@ -39,4 +39,31 @@ In a first step, **we use data on structural factors, such as the number of doct
 **Clustering is a first and crucial step to be able to identify positive deviants: Statistically controlling structural variables allows us to identify those counties and municipalities that outperform their “peers” although they are in the same cluster, thus have comparable structural conditions.**
 
 
+| ![Cluster](img/alexclustering.png){:class="img-responsive"} | [Geography](img/geography.png){:class="img-responsive"} | 
+
+Districts are grouped into structurally similar clusters (left). They share similarities that are not necessarily based on the geographical circumstances, as districts belonging to the same cluster are located in different parts of Germany (right).
+
+## 3. Statistical modelling: a crystal ball for understanding infections and positive deviants?
+**We are working on a machine learning procedure helping us to understand the factors that influence the spread of the virus. This is the basis to identify positive deviants, their structural conditions and in a next step possibly behavior and solutions which help coping with the crisis:**
+The main idea is to use a mathematical model to find a link between structural features of a district and its infection speed of the Coronavirus. We aim to understand how infection speed is linked to a region’s structural characteristics. The statistical model can act like a crystal ball identifying the rules that connect structural factors to infection speed. We cannot make predictions but an educated guess how infections develop based on what we know about the districts. 
+We then try to find the most important factors. In terms of the crystal ball: which factors are the most relevant, to give you a good prediction of the infection speed in your district.
+Regarding the statistical model, we start with a linear regression, which is a very simple model. As a next step, we will implement more powerful mathematical machine learning tools, to make better predictions of infection speed based on structural characteristics. In other words, we will replace our very simple crystal ball by a more potent one. This will serve as the basis to look for positive deviants and their behavior. 
+
+![Chosen Factors](img/Chosen_Factors_MSE_Delta_Plot_final.PNG){:class="img-responsive"}
+
+This graphic shows how leaving out a certain factor changes the performance of our crystal ball. A bar pointing downwards means that the performance of the model is affected negatively, indicating that the factor is important for the spread of Corona.
+Results on this should be seen as preliminary and not yet be interpreted too strongly. We hope that in a few weeks a more sound data basis will enable us to produce more precise and reliable results. Rather, we see this as a starting point of a methodological approach aiming at identifying positive deviants and their behaviour which make them more resistant to the spread of a virus. 
+
+**Which structural factors correlate with the speed of corona infections?** 
+
+![Coefficients](img/coefficientsAsugewaehlte.png){:class="img-responsive"}
+
+Depicted are coefficients of a linear regression model between 14 selected structural factors and infection speed of the Coronavirus in a district. This graphic shows how leaving out a certain factor changes the performance of our crystal ball. A bar to the right shows that the performance is affected negatively, indicating that the factor is important for the spread of Corona. Since the database for the numbers of infected people has yet to become more robust over time and our mathematical model is quite simple at this point, results should not be overstated for the time being but should become more meaningful over time. 
+
+![Bundeslaender](img/r0_vs_bundeslaender_and_lkpng.png){:class="img-responsive"}
+
+Sorted by states (Bundesländer), this graph shows the predicted number of new infections spread from one already infected individual R0. The predicted rate of how quickly new Coronavirus infections are spreading is lower in the district of Heinsberg, compared to, for example Tübingen. R0 is estimated from the Robert Koch Institut (RKI) incidence data based on Thompson et. al. (_Thompson, R. N., et al. "Improved inference of time-varying reproduction numbers during infectious disease outbreaks." Epidemics 29 (2019): 100356._)
+The logarithmic plot of newly infected people in Heinsberg is illustrated below. We see how the speed of the spread increases over time.
+
+![Heinsberg](img/Heinsberg.png){:class="img-responsive"}
 
