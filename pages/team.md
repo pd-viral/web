@@ -10,3 +10,9 @@ description: This is our team
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+
+
+
+Das hier ist Niklas
+![Niklas](img/profile/NiklasWulkow.png)
+Wie wrappt der Text?
