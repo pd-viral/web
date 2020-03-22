@@ -14,5 +14,5 @@ description: This is our team
 
 
 Das hier ist Niklas
-![Niklas](img/profile/NiklasWulkow.png)
+![Niklas](../img/profile/NiklasWulkow.png)
 Wie wrappt der Text?
