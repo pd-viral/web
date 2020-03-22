@@ -30,8 +30,3 @@ On our endeavour to identify those communities, we a.) need to make communities 
 
 
 -------
-
-## Links
-- [embedded Jupyter notebook](pages/jupyter.html)
-- [embedded as Markdown](pages/Plots.html)
-- [Team](pages/team.html)
