@@ -39,9 +39,11 @@ In a first step, **we use data on structural factors, such as the number of doct
 **Clustering is a first and crucial step to be able to identify positive deviants: Statistically controlling structural variables allows us to identify those counties and municipalities that outperform their “peers” although they are in the same cluster, thus have comparable structural conditions.**
 
 
-| ![Cluster](img/alexclustering.png){:class="img-responsive"} | [Geography](img/geography.png){:class="img-responsive"} | 
+![Cluster](img/alexclustering.png){:class="img-responsive"}  
+![Geography](img/geography.png){:class="img-responsive"}
 
-Districts are grouped into structurally similar clusters (left). They share similarities that are not necessarily based on the geographical circumstances, as districts belonging to the same cluster are located in different parts of Germany (right).
+Districts are grouped into structurally similar clusters (top). They share similarities that are not necessarily based on the geographical circumstances, as districts belonging to the same cluster are located in different parts of Germany (bottom).
+
 
 ## 3. Statistical modelling: a crystal ball for understanding infections and positive deviants?
 **We are working on a machine learning procedure helping us to understand the factors that influence the spread of the virus. This is the basis to identify positive deviants, their structural conditions and in a next step possibly behavior and solutions which help coping with the crisis:**
@@ -49,7 +51,7 @@ The main idea is to use a mathematical model to find a link between structural f
 We then try to find the most important factors. In terms of the crystal ball: which factors are the most relevant, to give you a good prediction of the infection speed in your district.
 Regarding the statistical model, we start with a linear regression, which is a very simple model. As a next step, we will implement more powerful mathematical machine learning tools, to make better predictions of infection speed based on structural characteristics. In other words, we will replace our very simple crystal ball by a more potent one. This will serve as the basis to look for positive deviants and their behavior. 
 
-![Chosen Factors](img/Chosen_Factors_MSE_Delta_Plot_final.PNG){:class="img-responsive"}
+![Chosen-Factors](img/Chosen_Factors_MSE_Delta_Plot_final.PNG){:class="img-responsive"}
 
 This graphic shows how leaving out a certain factor changes the performance of our crystal ball. A bar pointing downwards means that the performance of the model is affected negatively, indicating that the factor is important for the spread of Corona.
 Results on this should be seen as preliminary and not yet be interpreted too strongly. We hope that in a few weeks a more sound data basis will enable us to produce more precise and reliable results. Rather, we see this as a starting point of a methodological approach aiming at identifying positive deviants and their behaviour which make them more resistant to the spread of a virus. 
