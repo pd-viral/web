@@ -15,13 +15,6 @@ However, we think that the available data may be even more useful than they have
 One way to do this is with the Data Based Positive Deviance approach.
 
 
-## Links
-- [embedded Jupyter notebook](pages/jupyter.html)
-- [embedded as Markdown](pages/Plots.html)
-- [Team](pages/team.html)
-
-
-
 ## Data-Driven Approach
 Oftentimes the best and most suitable responses towards pressing issues such as the Corona-Crisis may already be out there. They , having been discovered by innovative individuals or groups that face similar circumstances as the rest but, however, that manage to fare better than their peers due to the creative solutions they have developed. The people, groups, organisations who come up with these solutions are called positive deviants. 
 
