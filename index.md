@@ -5,7 +5,7 @@ tagline: A Data-Driven Analysis
 description: A Data-Driven Approach to Finding Positive Deviants in the Corona Crisis
 ---
 
-![My helpful screenshot](/img/DPPDvsCorona_horizontal.jpg){:class="img-responsive"}
+![headerimg](/img/DPPDvsCorona_horizontal.jpg){:class="img-responsive"}
 
 
 Probably no global crisis in history has been so closely captured by and with data. We have been able to follow the number of people infected with the novel coronavirus rise almost in real time in dashboards and sophisticated data visualisations. Politicians, scientists and citizens have been able to consult these data to learn more about the spread and extent of the pandemic and base their decisions on this information. 
@@ -16,9 +16,9 @@ One way to do this is with the Data Based Positive Deviance approach.
 
 
 ## Links
-- [Jupyter Notebooks can be included (direct link)](jupyter.html)
-- [or embedded](pages/jupyter.html)
-- [version2](pages/Plots.html)
+- [embedded Jupyter notebook](pages/jupyter.html)
+- [embedded as Markdown](pages/Plots.html)
+- [Team](pages/team.html)
 
 
 
