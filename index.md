@@ -5,7 +5,7 @@ tagline: A Data-Driven Analysis
 description: A Data-Driven Approach to Finding Positive Deviants in the Corona Crisis
 ---
 
-![headerimg](/img/DPPDvsCorona_horizontal.jpg){:class="img-responsive"}
+![headerimg](web/img/png){:class="img-responsive"}
 
 
 Probably no global crisis in history has been so closely captured by and with data. We have been able to follow the number of people infected with the novel coronavirus rise almost in real time in dashboards and sophisticated data visualisations. Politicians, scientists and citizens have been able to consult these data to learn more about the spread and extent of the pandemic and base their decisions on this information. 
