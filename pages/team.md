@@ -4,7 +4,7 @@ title: Team
 description: This is our team
 ---
 
-(zufällige Reihenfolge)
+(arbitrary ordering)
 
 {% include team.html %}
 
