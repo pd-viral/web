@@ -7,8 +7,7 @@ description: A Data-Driven Approach to Finding Positive Deviants in the Corona C
 
 ![headerimg](/img/logo.png){:class="img-responsive"}
 
-<iframe src="http://ec2-3-121-184-5.eu-central-1.compute.amazonaws.com:3838/" width="100%">
-</iframe>
+
 
 
 
