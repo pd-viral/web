@@ -7,6 +7,10 @@ description: A Data-Driven Approach to Finding Positive Deviants in the Corona C
 
 ![headerimg](/img/logo.png){:class="img-responsive"}
 
+<iframe src="http://ec2-3-121-184-5.eu-central-1.compute.amazonaws.com:3838/">
+</iframe>
+
+
 
 Probably no global crisis in history has been so closely captured by and with data. We have been able to follow the number of people infected with the novel coronavirus rise almost in real time in dashboards and sophisticated data visualisations. Politicians, scientists and citizens have been able to consult these data to learn more about the spread and extent of the pandemic and base their decisions on this information. 
 
