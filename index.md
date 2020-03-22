@@ -66,4 +66,15 @@ Sorted by states (Bundesländer), this graph shows the predicted number of new i
 The logarithmic plot of newly infected people in Heinsberg is illustrated below. We see how the speed of the spread increases over time.
 
 ![Heinsberg](img/Heinsberg.png){:class="img-responsive"}
+![Cluster](img/All Factors_Corr_Cluster_Matrix_Plot_final.png){:class="img-responsive"}
 
+**Which regions have comparable structural preconditions to mitigate the spread of the coronavirus?**
+
+Collecting data on the structural factors of Germany’s districts is a necessary preliminary step to control for the circumstances in which the Coronavirus spreads. The graph above is a simple visualisation of which factors correlate with one another. The colour indicates the direction and strength of the correlation. For instance, areas with a low settlement density have a lower coverage with health infrastructure such as dentists or pharmacies. Ultimately, exploring this data enables us to make meaningful comparisons between districts when looking for positive deviants. 
+
+![Cluster](img/All_Factors_Corr_Matrix_Coeff_Plot_final.png){:class="img-responsive"}
+
+Which factors correlate with one another? In the graph above, the structural factors are displayed. The colours can be read as follows: a lighter colour suggests a positive relationship and darker colours a negative relationship. For example, areas with a high population density usually display a higher number of general practitioners.
+
+# Where do we go from here: From Clustering to Positive Deviance
+Based on the data that we gathered throughout the last 48 hours and our first analysis we were able to gain a glimpse of the impact of structural variables on the spread or slow-down of the corona outbreak. Within the next days and weeks we seek to further refine this model, to create an increasingly solid database and to improve our clustering. **As presented, the clustering does already offer some great insights but is in itself only a step towards identifying positive deviants: counties and municipalities that outperform others not based on the structural variables that we accounted for in the clustering, but based on unusual and highly-effective behaviors in tackling the corona outbreak. These behaviors are highly context-sensitive and might potentially benefit all counties and municipalities, but especially those in the same cluster, as the structural conditions are similar.**
