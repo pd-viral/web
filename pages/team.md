@@ -4,15 +4,9 @@ title: Team
 description: This is our team
 ---
 
-| Tables        | Are           | Cool  |
+|     2   |    3     |  3  |   
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
+|![Niklas](../img/profile/NiklasWulkow.png)  | right-aligned | $1600 |
+| ![Niklas](../img/profile/Catherine.png)       | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-
-
-
-Das hier ist Niklas
-![Niklas](../img/profile/NiklasWulkow.png)
-Wie wrappt der Text?
