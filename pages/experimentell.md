@@ -1,4 +1,0 @@
-# Collapsible
-
-
-{% include expand.html %}
