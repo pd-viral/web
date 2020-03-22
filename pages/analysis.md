@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Our Analysis
-description: Trying to find positive deviants
+title: Data Analysis of Districts in Germany
+description: Data Analysis of Districts in Germany
 ---
-
-Data analysis by Alexander Blaessle.
 
 {% include district_data_vs_corona.html %}
 
