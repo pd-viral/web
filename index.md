@@ -8,13 +8,6 @@ description: A Data-Driven Approach to Finding Positive Deviants in the Corona C
 ![headerimg](/img/logo.png)
 
 
-
-## Links
-- [embedded Jupyter notebook](pages/jupyter.html)
-- [embedded as Markdown](pages/Plots.html)
-- [Team](pages/team.html)
-
-
 # Corona is affecting everyone - from a global to a local level!
 The corona crisis is unfolding worldwide: States, municipalities, villages, and citizens are facing unprecedented, existential challenges. Corona is a global crisis, that does not stop at border checkpoints and has been deeply affecting our everyday live. No global crisis in modern history has been so closely monitored with data. The access to dashboards and other data visualizations show us almost in real time the cruel reality of a quickly spreading pandemic within a globalized world. 
 
@@ -33,3 +26,12 @@ On our endeavour to identify those communities, we a.) need to make communities 
 
 # Analysis
 ![Structure](img/structure.png)
+
+
+
+-------
+
+## Links
+- [embedded Jupyter notebook](pages/jupyter.html)
+- [embedded as Markdown](pages/Plots.html)
+- [Team](pages/team.html)
