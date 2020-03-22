@@ -7,5 +7,5 @@ description: Trying to find positive deviants
 Example Plot
 
 
-![headerimg](/img/plot1.png)
+![headerimg](/web/img/plot1.png){:class="img-responsive"}
 
