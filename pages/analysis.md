@@ -6,4 +6,6 @@ description: Trying to find positive deviants
 
 Example Plot
 
-{% include plot1.html %}
+
+![headerimg](/img/Plot_Corr_Cluster_Matrix.png){:class="img-responsive"}
+
