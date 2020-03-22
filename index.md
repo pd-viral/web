@@ -32,18 +32,16 @@ On our endeavour to identify those communities, we a.) need to make communities 
 As the Coronavirus spreads, the number of infected people grows exponentially. In all countries, infected people infect others, who themselves can infect more people. This pattern can also be observed within the individual districts (Landkreise/Kreisfreie Städte) within Germany. **We try to identify those districts, where the virus spreads relatively slowly compared to other districts. We first statistically control for any structural influence on this performance and then identify the districts that are outperforming other districts based on unusual behaviors:  Positive Deviants.** Using open source data, we aim to find connections between district characteristics on the one hand, and infection speed on the other hand. 
 
 ## 1. Gathering the data
-In a first step, **we use data on structural factors, such as the number of doctors, hospitals, academic workers, or unemployment ratio which we retrieved from sources like [Landatlas](https://www.landatlas.de "Landatlas") or Wikipedia. Up until now, we analysed 54 such structural factors.** In further steps, we hope to gain insights on which behavior of decision makers and people living and working in the districts accelerates or slows the spread of the virus. We expect that over the course of the crisis and its aftermath, more data will become available that allows us to quantify and investigate critical behaviour. 
+In a first step, **we use data on structural factors, such as the number of doctors, hospitals, academic workers, or unemployment ratio which we retrieved from sources like [Landatlas](https://www.landatlas.de "Landatlas") or Wikipedia. Up until now, we analysed 54 such structural factors.** In further steps, we hope to gain insights on which behavior of decision makers and people living and working in the districts accelerates or slows the spread of the virus. We expect that over the course of the crisis and its aftermath, more data will become available that allows us to quantify and investigate critical behaviour.
 
 ## 2. Clustering: Controlling Structural Variables to Identify Positive Deviance
 **One important part of our analysis is the clustering of districts according to similarities in their structural factors.** This allows us to look deeper into how the Coronavirus is spreading across districts and make meaningful comparisons between districts with similar features. In other terms, we avoid comparing apples to oranges. We consistently find differences between rural areas and cities. We see that structural factors among cities vary more than among rural areas. This indicates that dividing into cities and rural areas would be a helpful next step. As clustering methods, we use Hierarchical Clustering, Principal Component Analysis (PCA) and Uniform Manifold Approximation and Prediction (UMAP).
 **Clustering is a first and crucial step to be able to identify positive deviants: Statistically controlling structural variables allows us to identify those counties and municipalities that outperform their “peers” although they are in the same cluster, thus have comparable structural conditions.**
 
-
 ![Cluster](img/alexclustering.png){:class="img-responsive"}  
 ![Geography](img/geography.png){:class="img-responsive"}
 
 Districts are grouped into structurally similar clusters (top). They share similarities that are not necessarily based on the geographical circumstances, as districts belonging to the same cluster are located in different parts of Germany (bottom).
-
 
 ## 3. Statistical modelling: a crystal ball for understanding infections and positive deviants?
 **We are working on a machine learning procedure helping us to understand the factors that influence the spread of the virus. This is the basis to identify positive deviants, their structural conditions and in a next step possibly behavior and solutions which help coping with the crisis:**
