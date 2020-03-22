@@ -5,7 +5,7 @@ description: The hackathon
 ---
 
 
-[![Hackathon](https://img.youtube.com/vi/LqemooUtAQo/0.jpg)](https://youtu.be/LqemooUtAQo)
+[![Hackathon](https://img.youtube.com/vi/LqemooUtAQo/0.jpg)](https://youtu.be/LqemooUtAQo){:class="img-responsive"}
 
 
 In a 48 hour hackathon from March 20 to March 22, the German Federal Government challenged more than 40.000 participants to find creative solutions to societal problems emerging from the corona crisis. People from various backgrounds collaborated in teams to explore how digital participation can make us stronger and more resilient as a society.
