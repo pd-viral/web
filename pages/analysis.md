@@ -4,8 +4,5 @@ title: Our Analysis
 description: Trying to find positive deviants
 ---
 
-Example Plot
-
-
-![headerimg](/web/img/plot1.png){:class="img-responsive"}
+{% include district_data_vs_corona.html %}
 
