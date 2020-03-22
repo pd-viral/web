@@ -9,35 +9,35 @@ description: A Data-Driven Approach to Finding Positive Deviants in the Corona C
 
 
 
+---
+layout: page
+title: Finding Positive Deviants in the Corona Crisis
+tagline: A Data-Driven Analysis
+description: A Data-Driven Approach to Finding Positive Deviants in the Corona Crisis
+---
+
+![headerimg](/img/DPPDvsCorona_horizontal.jpg){:class="img-responsive"}
+
+## Links
+- [embedded Jupyter notebook](pages/jupyter.html)
+- [embedded as Markdown](pages/Plots.html)
+- [Team](pages/team.html)
 
 
-Probably no global crisis in history has been so closely captured by and with data. We have been able to follow the number of people infected with the novel coronavirus rise almost in real time in dashboards and sophisticated data visualisations. Politicians, scientists and citizens have been able to consult these data to learn more about the spread and extent of the pandemic and base their decisions on this information. 
+#Corona is affecting everyone - from a global to a local level!
+The corona crisis is unfolding worldwide: States, municipalities, villages, and citizens are facing unprecedented, existential challenges. Corona is a global crisis, that does not stop at border checkpoints and has been deeply affecting our everyday live. No global crisis in modern history has been so closely monitored with data. The access to dashboards and other data visualizations show us almost in real time the cruel reality of a quickly spreading pandemic within a globalized world. 
 
-However, we think that the available data may be even more useful than they have already proved to be! We believe that by diving deep into the available data and by tapping the potential of additional data sources, we can not only learn about the spread of the crisis, but also learn about ways of how to successfully tackle its consequences.  
+At the same time, the huge quantity of data on this outbreak allows us to gain valuable insights on how to best tackle the negative consequences COVID-19 has on our lives. Scientists, politicians and civil society are coming closer to develop data-driven solutions. We want to contribute to this effort and have come together as individuals from diverse backgrounds and professions to join forces in analyzing the data available and identifying what we call the “positive deviants”. 
 
-One way to do this is with the Data Based Positive Deviance approach.
+#Identifying Positive Deviance: Local Solutions for Global Challenges
+Positive Deviants are individuals, groups, cities, regions etc. who outperform their peers in a comparable context thanks to creative and highly adaptive solutions they have come up with. These solutions have proven to work in a specific context and offer as such a high potential to support their peers facing the same challenges. The Positive Deviance approach was first developed in the 1990s by Sternin and Sternin on child nutrition in Vietnam [Pascale, Sternin and Sternin (2010)](https://books.google.de/books/about/The_Power_Of_Positive_Deviance.html?id=nBgDmcy9SnkC&redir_esc=y "Pascale, Sternin and Sternin (2010)"). [Albanna and Heeks (2018)](https://onlinelibrary.wiley.com/doi/full/10.1002/isd2.12063 "Albanna and Heeks (2018)") have looked into the possibility of identifying positive deviants through the analysis of big data, e.g. identifying rice farmers through satellite imagery who manage to produce significantly higher yields than their peers. Solutions developed by Positive Deviants are so effective as they are locally developed, highly context-sensitive, and usually involve a great level of ownership by their communities. Regarding the huge challenges we are facing as local communities, we believe that the positive deviance approach has a great potential to help counties and municipalities in tackling the devastating consequences of the corona outbreak.  
 
+#Applying the Positive Deviance approach to tackle the Corona crisis
+While most communities are experiencing existential challenges through the corona outbreak, some communities are more successful in facing them than others, despite facing similar circumstances. **The objective of this challenge is to find and learn from them! **
 
-## Data-Driven Approach
-Oftentimes the best and most suitable responses towards pressing issues such as the Corona-Crisis may already be out there. They , having been discovered by innovative individuals or groups that face similar circumstances as the rest but, however, that manage to fare better than their peers due to the creative solutions they have developed. The people, groups, organisations who come up with these solutions are called positive deviants. 
+We believe that understanding how communities deal with the outbreak and find solutions they have come up with, can effectively support existing efforts to deal with the Corona outbreak. 
+Therefore our objective is to identify those communities who have managed to deal better with COVID-19 than others - our “Positive Deviants”.
 
-In the context of the Corona-Crisis positive deviants may be communities that successfully communicate in a particular way, show lower infection or mortality rates than others etc. even though they have similar amounts of resources then comparable entities.
+On our endeavour to identify those communities, we a.) need to make communities comparable. Therefore, we statistically control for a wide range of structural variables - such as population density, hospital beds or age distribution. This allows us to cluster those counties and municipalities with similar resources and structural conditions. Based on an analysis of this cluster, we b.) might be able to identify structural conditions who could have a correlation with the spread of the virus. However more than anything we are c.) striving to identify communities that outperform others in dealing with Covid-19 - **independently** from accessible resources or other structural conditions, but thanks to their behaviour and specific solutions. 
 
-Whereas the traditional positive deviance approach has been proven successful in the context of development cooperation, it has not been adopted at a large scale - since it is very time and resource intensive. However, the widespread availability of Big Data can potentially revolutionise this approach and make it more easily implementable. We strongly believe that the power of data can guide us towards positive deviants that fare better than others due to their unique solutions and help us learn from their successful way of doing things. We also believe that by implementing their unique solutions in other places, we can contribute to tackle and solve this crisis together!
-
-
-## Our Hackathon Experience
-This website was developed within 48 hours as part of the #wirvsvirus hackathon.  During the Hackathon, tThe German Federal Government challenged over 40.000XX participants to jointly develop solutions to mitigate the consequences of the corona crisis. During those 48 hours, we worked with an enthusiastic interdisciplinary group of data analysts, psychologists, political scientists, and development cooperation professionals. With enthusiasm, social and data scientists worked in several teams. In 48 hours, wWe wantcreated a working website with the aim to encouragecontent for the public and the research community to explore how data powered engage in Positive Deviance (PD) analysis can help to tackle societal challenges in the corona crisis. By making the data insightful, and intuitive, and actionable, we hope that future analysts will continue to work on these projects. 
-
-
-## Further Questions of Interest
-The corona crisis has fundamentally changed the economic, social and political circumstances we live in. At this moment, we as a society are taking action to reduce the spread of the corona virus and reduce its harm for possibly millions of people. In the upcoming months, we will face the challenge to maintain a functioning society  - despite a rivalling virus. The challenges posed by Covid 19 will not be gone within a couple of weeks. We are in for the long run.
-
-Considering this long-term perspective, we see a need to track positive deviants within economic, social and political contexts. Which family businesses have successfully switched to the food delivery sector? Which schools managed to set up an e-learning platform that enabled children to keep up their learning progress while staying at home? Which municipalities got a grip on the piling up administrative work that used to be done only on paper?
-
-
-## We can also integrate HTML plots
-This random plot was generated with Bokeh for Python and the output `.html` file can easily be included:
-{% include randomplot.html %}
-
-This way, we can ask the other teams to produce independent `.html` files of their results so that in the end we can embedd them here super quick.
+#Analysis
