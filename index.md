@@ -1,22 +1,13 @@
 ---
 layout: page
-title: Finding Positive Deviants in the Corona Crisis
-tagline: A Data-Driven Analysis
+title: Positive Deviance goes Viral
+tagline: Using data and local solutions against Corona
 description: A Data-Driven Approach to Finding Positive Deviants in the Corona Crisis
 ---
 
 ![headerimg](/img/logo.png){:class="img-responsive"}
 
 
-
----
-layout: page
-title: Finding Positive Deviants in the Corona Crisis
-tagline: A Data-Driven Analysis
-description: A Data-Driven Approach to Finding Positive Deviants in the Corona Crisis
----
-
-![headerimg](/img/DPPDvsCorona_horizontal.jpg){:class="img-responsive"}
 
 ## Links
 - [embedded Jupyter notebook](pages/jupyter.html)
