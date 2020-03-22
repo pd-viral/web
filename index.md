@@ -5,7 +5,7 @@ tagline: Using data and local solutions against Corona
 description: A Data-Driven Approach to Finding Positive Deviants in the Corona Crisis
 ---
 
-![headerimg](/img/logo.png){:class="img-responsive"}
+![headerimg](/img/logo.png)
 
 
 
