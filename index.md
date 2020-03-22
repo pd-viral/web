@@ -41,3 +41,4 @@ Therefore our objective is to identify those communities who have managed to dea
 On our endeavour to identify those communities, we a.) need to make communities comparable. Therefore, we statistically control for a wide range of structural variables - such as population density, hospital beds or age distribution. This allows us to cluster those counties and municipalities with similar resources and structural conditions. Based on an analysis of this cluster, we b.) might be able to identify structural conditions who could have a correlation with the spread of the virus. However more than anything we are c.) striving to identify communities that outperform others in dealing with Covid-19 - **independently** from accessible resources or other structural conditions, but thanks to their behaviour and specific solutions. 
 
 # Analysis
+![Structure](img/structure.png)
